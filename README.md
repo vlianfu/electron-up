@@ -1,7 +1,7 @@
 ## Install
 
 ```bash
-git clone --depth 1 --single-branch https://github.com/w-lianfu/electron-up.git
+git clone https://github.com/vlianfu/electron-up
 cd electron-up
 yarn
 ```
@@ -22,4 +22,4 @@ yarn package
 
 ## License
 
-MIT © [Electron React Boilerplate](https://github.com/w-lianfu/electron-up)
+MIT © [electron-up](https://github.com/vlianfu/electron-up)

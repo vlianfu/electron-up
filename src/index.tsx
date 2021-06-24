@@ -1,5 +1,10 @@
 import React from 'react';
-import { render } from 'react-dom';
-import App from './App';
+import * as ReactDOM from 'react-dom';
 
-render(<App />, document.getElementById('root'));
+import AppRoute from '@con/app-route';
+
+const container = document.getElementById('root');
+// @ts-ignore
+const root = ReactDOM.createRoot(container);
+
+root.render(<AppRoute />);
